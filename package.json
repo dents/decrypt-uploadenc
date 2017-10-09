@@ -1,0 +1,27 @@
+{
+  "name": "decode-uploadenc",
+  "version": "1.0.0",
+  "description": "Decrypts files created by uploadenc",
+  "main": "decrypt.js",
+  "dependencies": {
+    "busboy": "^0.2.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dents/decrypt-uploadenc.git"
+  },
+  "keywords": [
+    "aes",
+    "decrypt"
+  ],
+  "author": "Denis Petrusenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dents/decrypt-uploadenc/issues"
+  },
+  "homepage": "https://github.com/dents/decrypt-uploadenc#readme"
+}
