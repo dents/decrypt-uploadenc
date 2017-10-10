@@ -7,6 +7,6 @@ Usage:
 * This will stream files from S3, decrypt and process them on the fly, generating files on local disk:
   * `node decryptFromS3.js`
 
-By default the encrypted blobs are deleted from S3 after successful decryption. See [decrypt-config.js] to turn that off.
+By default the encrypted blobs are deleted from S3 after successful decryption. See [decrypt-config.js](decrypt-config.js) to turn that off.
 
 Encrypted files are signed with SHA512 so any corruption can be detected, however they do not contain any recovery information. If there is corruption, the affected encrypted file needs to be downloaded from S3 again. The only place it could reasonably come from is an ISP injecting garbage, for example when using a cruise ship wifi.
